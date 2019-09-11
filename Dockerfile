@@ -30,4 +30,4 @@ RUN pip install --upgrade pip
 RUN pip install --upgrade bandersnatch
 
 # Runs a sync once a day
-CMD ["python", "/src/runner.py", "3600"]
+CMD ["python", "/src/runner.py", "86400"]
